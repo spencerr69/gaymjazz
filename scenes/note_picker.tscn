@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://d23qwecx4puu0"]
+
+[ext_resource type="Script" uid="uid://bg0dtmyxauhyd" path="res://scripts/maingame/note_picker.gd" id="1_334xg"]
+[ext_resource type="Texture2D" uid="uid://bawkw31q66mog" path="res://sprites/maingame/notepicker.png" id="2_0v5ce"]
+
+[node name="note picker" type="Node2D"]
+script = ExtResource("1_334xg")
+
+[node name="Note picker Q" type="Sprite2D" parent="."]
+scale = Vector2(0.317778, 0.295556)
+texture = ExtResource("2_0v5ce")

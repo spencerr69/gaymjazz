@@ -1,3 +1,27 @@
-[gd_scene format=3 uid="uid://vvgtop5kr3fd"]
+[gd_scene load_steps=3 format=3 uid="uid://vvgtop5kr3fd"]
+
+[ext_resource type="Texture2D" uid="uid://cxkk1ulu1qmi6" path="res://sprites/maingame/track.jpg" id="1_s3esy"]
+[ext_resource type="PackedScene" uid="uid://d23qwecx4puu0" path="res://scenes/note_picker.tscn" id="3_d2op2"]
 
 [node name="Main game" type="Node2D"]
+
+[node name="Track" type="Sprite2D" parent="."]
+position = Vector2(263.652, 540.186)
+scale = Vector2(-1.24297, 6.75138)
+texture = ExtResource("1_s3esy")
+
+[node name="note picker Q" parent="." instance=ExtResource("3_d2op2")]
+position = Vector2(117, 1035)
+key = "q"
+
+[node name="note picker W" parent="." instance=ExtResource("3_d2op2")]
+position = Vector2(207, 1036)
+key = "w"
+
+[node name="note picker E" parent="." instance=ExtResource("3_d2op2")]
+position = Vector2(306, 1038)
+key = "e"
+
+[node name="note picker R" parent="." instance=ExtResource("3_d2op2")]
+position = Vector2(418, 1040)
+key = "r"
