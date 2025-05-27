@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://1wrg1eg5o2sj"]
+
+[ext_resource type="Script" uid="uid://bng4atho6b833" path="res://scripts/maingame/note.gd" id="1_1bnk6"]
+[ext_resource type="Texture2D" uid="uid://dbiffl6dcu41e" path="res://sprites/maingame/note.png" id="1_t3yvt"]
+
+[node name="Note" type="Node2D"]
+top_level = true
+script = ExtResource("1_1bnk6")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.0333333, 0.0333333)
+texture = ExtResource("1_t3yvt")
